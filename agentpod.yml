@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    some-label: pod
+spec:
+  containers:
+    - name: golint
+      image: golangci/golangci-lint:v1.54.2
+      command:
+        - cat
+      tty: true
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+
+
+
+

@@ -3,7 +3,6 @@ module github.com/DefinitelyNotAGoat/twelvedata
 go 1.20
 
 require (
-	github.com/DefinitelyNotAGoat/tradeit v0.0.0-20230831005545-c6504bd08428
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
 )
